@@ -1,0 +1,21 @@
+{
+  "name": "shidoka-docs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vite-plugin-decap-cms": "^0.4.0",
+    "vitepress": "^2.0.0-alpha.12",
+    "vitepress-sidebar": "^1.33.0",
+    "vue": "^3.5.21"
+  }
+}
