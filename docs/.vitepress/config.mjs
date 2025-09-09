@@ -32,6 +32,8 @@ const vitePressSidebarOptions = {
   capitalizeEachWords: true,
   hyphenToSpace: true,
   collapsed: false,
+  useFolderTitleFromIndexFile: false,
+  useFolderLinkFromIndexFile: true,
 };
 
 export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
