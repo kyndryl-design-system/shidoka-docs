@@ -6,6 +6,7 @@ const vitePressOptions = {
   // VitePress's options here...
   title: 'Shidoka',
   description: 'Shidoka Design System Documentation',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,6 +23,10 @@ const vitePressOptions = {
 
         return `/admin/index.html#/edit/${cmsPath}`;
       },
+    },
+
+    search: {
+      provider: 'local',
     },
   },
 };
