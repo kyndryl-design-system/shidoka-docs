@@ -1,3 +1,7 @@
+---
+title: Button
+---
+
 # [Button](https://shidoka-applications.netlify.app/?path=/docs/components-button--docs)
 
 ## Example
