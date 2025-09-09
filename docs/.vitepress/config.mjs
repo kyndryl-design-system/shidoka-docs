@@ -10,10 +10,10 @@ const vitePressOptions = {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Docs', link: '/get-started' },
     ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/kyndryl-design-system' }],
 
     editLink: {
       pattern: (page) => {
@@ -34,6 +34,7 @@ const vitePressSidebarOptions = {
   collapsed: false,
   useFolderTitleFromIndexFile: false,
   useFolderLinkFromIndexFile: true,
+  sortFolderTo: 'bottom',
 };
 
 export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
