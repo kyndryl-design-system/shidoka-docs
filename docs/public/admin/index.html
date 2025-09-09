@@ -61,19 +61,22 @@
         // This is used to serialize the data from the custom widget to the
         // markdown document
         toBlock: function (data) {
-          return `<iframe src="${data.url}" width="100%" height="${data.height}" frameborder="0"></iframe>`;
-        },
-        // Preview output for this component. Can either be a string or a React component
-        // (component gives better render performance)
-        toPreview: function (data) {
-          return `
-<iframe
+          return `<iframe
   src="${data.url}"
   width="100%"
   height="${data.height}"
   frameborder="0"
-></iframe>
-`;
+></iframe>`;
+        },
+        // Preview output for this component. Can either be a string or a React component
+        // (component gives better render performance)
+        toPreview: function (data) {
+          return `<iframe
+  src="${data.url}"
+  width="100%"
+  height="${data.height}"
+  frameborder="0"
+></iframe>`;
         },
       });
     </script>
