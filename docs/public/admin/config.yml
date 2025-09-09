@@ -22,10 +22,11 @@ collections:
     label: 'Docs'
     folder: 'docs'
     nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+      depth: 5
+      summary: '{{title}}'
     create: true
     slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
