@@ -6,9 +6,4 @@ title: Button
 
 ## Example
 
-<iframe
-  src="https://shidoka-applications.netlify.app/?path=/story/components-button--button&singleStory=true"
-  width="100%"
-  height="500"
-  frameborder="0"
-></iframe>
+<iframe src="https://shidoka-applications.netlify.app/?path=/story/components-button--button&singleStory=true" width="100%" height="500" frameborder="0"></iframe>
