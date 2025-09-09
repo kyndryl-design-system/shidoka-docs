@@ -13,7 +13,6 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vite-plugin-decap-cms": "^0.4.0",
     "vitepress": "^2.0.0-alpha.12",
     "vitepress-sidebar": "^1.33.0",
     "vue": "^3.5.21"
