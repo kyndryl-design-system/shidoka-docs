@@ -2,13 +2,17 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: public/uploads
-public_folder: /uploads
+local_backend: true
+
+publish_mode: editorial_workflow
+
+media_folder: 'docs/public/uploads'
+public_folder: '/public/uploads'
 
 collections:
   - name: 'docs'
     label: 'Docs'
-    folder: ''
+    folder: 'docs'
     nested:
       depth: 100 # max depth to show in the collection tree
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
